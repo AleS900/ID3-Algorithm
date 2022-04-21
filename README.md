@@ -1,6 +1,6 @@
 # ID3
 
-## Introduction
+## Introducción
 
 El algoritmo ID3 comienza con el conjunto original S como nodo raíz. En cada iteración del algoritmo, itera a través de cada atributo no utilizado del conjunto S y calcula la entropía H(S) (o ganancia de información IG(A)) de ese atributo. Luego selecciona el atributo que tiene el valor de entropía más pequeño (o la ganancia de información más grande). Luego, el conjunto S se divide por el atributo seleccionado (por ejemplo, la edad es menor de 50 años, la edad está entre 50 y 100, la edad es mayor de 100) para producir subconjuntos de datos. El algoritmo continúa repitiéndose en cada subconjunto, considerando solo los atributos nunca antes seleccionados.
 
